@@ -8,7 +8,6 @@ const autoprefixer = require('autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const postcss = require('gulp-postcss');
 
-// const dist = "/localhost/test"; //
 const dist = './dist';
 
 gulp.task('copy-html', () => {
