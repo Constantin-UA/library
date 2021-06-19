@@ -14,7 +14,7 @@
 			<button class="btn btn-warning m20">Fade out all texts</button>
 
 			<!-- Dropdown menu -->
-			<!-- 	<div class="dropdown">
+			<div class="dropdown">
 				<button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">
 					Dropdown button
 				</button>
@@ -22,14 +22,89 @@
 					<a href="#" class="dropdown-item">link 1</a>
 					<a href="#" class="dropdown-item">link 2</a>
 					<a href="#" class="dropdown-item">link 3</a>
-					<a href="#" class="dropdown-item">link 1</a>
-					<a href="#" class="dropdown-item">link 2</a>
-					<a href="#" class="dropdown-item">link 3</a>
 				</div>
-			</div> -->
-			<div class="wrap"></div>
-		</div>
+			</div>
+			<!-- Card -->
 
+			<div class="goods d-flex f-space-around">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+							alt="notebook"
+						/>
+					</div>
+					<div class="card-body">
+						<div class="card-title">Card title 1</div>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quia accusamus dicta
+							ratione
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="exampleModal"
+							>Link to</a
+						>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+							alt="notebook"
+						/>
+					</div>
+					<div class="card-body">
+						<div class="card-title">Card title 2</div>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quia accusamus dicta
+							ratione
+						</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="exampleModal2"
+							>Link to</a
+						>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal" id="exampleModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-close>
+							<span>&times;</span>
+						</button>
+						<div class="modal-header">
+							<div class="modal-title">Modal Title</div>
+						</div>
+						<div class="modal-body">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptate possimus,
+							quasi assumenda rerum incidunt blanditiis vel dolorem ratione corporis quae rem
+							voluptatum ipsam nemo, sunt sapiente? Sapiente, suscipit debitis.
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-danger" data-close>Close</button>
+							<button class="btn btn-success">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal" id="exampleModal2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button class="close" data-close>
+							<span>&times;</span>
+						</button>
+						<div class="modal-header">
+							<div class="modal-title">Modal Title 2</div>
+						</div>
+						<div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+						<div class="modal-footer">
+							<button class="btn btn-danger" data-close>Close</button>
+							<button class="btn btn-success">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="script.js"></script>
 	</body>
 </html>
